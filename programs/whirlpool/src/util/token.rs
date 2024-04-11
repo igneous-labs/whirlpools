@@ -1,3 +1,5 @@
+#![cfg(not(feature = "state-only"))]
+
 use crate::state::{PositionBundle, Whirlpool};
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, Token, TokenAccount, Transfer};
