@@ -1,5 +1,3 @@
-#![cfg(not(feature = "state-only"))]
-
 pub mod close_bundled_position;
 pub mod close_position;
 pub mod collect_fees;
